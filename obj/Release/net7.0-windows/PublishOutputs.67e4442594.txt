@@ -1,0 +1,9 @@
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\CIST v1.exe
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\CIST v1.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\CIST v1.deps.json
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\CIST v1.runtimeconfig.json
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\CIST v1.pdb
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\Glimpse.Core.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\HtmlAgilityPack.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\Newtonsoft.Json.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Release\net7.0-windows\publish\Newtonsoft.Json.Glimpse.dll

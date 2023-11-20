@@ -1,0 +1,22 @@
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\CIST v1.exe
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\CIST v1.deps.json
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\CIST v1.runtimeconfig.json
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\CIST v1.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\CIST v1.pdb
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST_v1.Form1.resources
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.csproj.GenerateResource.cache
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.AssemblyInfoInputs.cache
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.AssemblyInfo.cs
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.csproj.CoreCompileInputs.cache
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.dll
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\refint\CIST v1.dll
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.pdb
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.genruntimeconfig.cache
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\ref\CIST v1.dll
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.csproj.AssemblyReference.cache
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\Glimpse.Core.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\Newtonsoft.Json.Glimpse.dll
+C:\Users\Professional\Desktop\CIST v1\obj\Debug\net7.0-windows\CIST v1.csproj.CopyComplete
+C:\Users\Professional\Desktop\CIST v1\bin\Debug\net7.0-windows\HtmlAgilityPack.dll
