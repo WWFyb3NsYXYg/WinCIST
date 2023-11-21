@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkGen", "LinkGen.csproj", "{C07D4095-6006-413B-B804-C116DCD15E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C07D4095-6006-413B-B804-C116DCD15E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07D4095-6006-413B-B804-C116DCD15E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07D4095-6006-413B-B804-C116DCD15E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07D4095-6006-413B-B804-C116DCD15E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2719318-4B12-4DAC-A140-B73CD53631DF}
+	EndGlobalSection
+EndGlobal

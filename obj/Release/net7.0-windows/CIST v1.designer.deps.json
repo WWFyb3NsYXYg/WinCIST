@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Glimpse/1.8.5": {
+        "runtime": {
+          "lib/net45/Glimpse.Core.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.5.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.54": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.54.0",
+            "fileVersion": "1.11.54.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/6.0.3": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.3.17227"
+          }
+        }
+      },
+      "Newtonsoft.Json.Glimpse/1.0.2": {
+        "dependencies": {
+          "Glimpse": "1.8.5",
+          "Newtonsoft.Json": "6.0.3"
+        },
+        "runtime": {
+          "lib/net35/Newtonsoft.Json.Glimpse.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.17227"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Glimpse/1.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Udied7TJ8cJVTvz0sTochTHZGwfarDfTvsk/8E/ZIpMZcm/Qhauke01kWtb/+hlBteSopaVC4YDyHmeVOxQdQQ==",
+      "path": "glimpse/1.8.5",
+      "hashPath": "glimpse.1.8.5.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bgB79N4urc4D7hrD4R+Qk6CjPiYOfs6vfXNsmw3nCcfQEQvBQGjfAcl5k/tB1ZP1hA0d7xXs0jK8xAXV36IVUg==",
+      "path": "htmlagilitypack/1.11.54",
+      "hashPath": "htmlagilitypack.1.11.54.nupkg.sha512"
+    },
+    "Newtonsoft.Json/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kN7Xp8vjnSEiLsyo5ZiKrRFgBU4P8CvcdxGSUBQ3W2OLqDK5rIABHkgN9Yjzh6kZ7BD58Ge19fz5GvfCnwmyGA==",
+      "path": "newtonsoft.json/6.0.3",
+      "hashPath": "newtonsoft.json.6.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Glimpse/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SqLAVx/IhjWMMv0Zyb8BReDGPEy/qgfH5LE01wLJ0c9SFSuVC4DPIO9VUdhE1BQl6+GIHkrPZHJwwBg9Hsht9A==",
+      "path": "newtonsoft.json.glimpse/1.0.2",
+      "hashPath": "newtonsoft.json.glimpse.1.0.2.nupkg.sha512"
+    }
+  }
+}

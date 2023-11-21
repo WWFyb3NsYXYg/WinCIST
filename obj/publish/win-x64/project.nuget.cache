@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gxxJCdMtWS/HAmrQmph76EJ1BhPWcgUkqhm/BSsvbjNDkamEcdrFMIQByNOjWnCuoyB/qjG0Opr7EIkt/TSOxg==",
+  "dgSpecHash": "3eV+YvIcZbep7gxVp8QxwFxzkuFhuhKn55baed7I/PsPgEPRIJuf8i/AtnaPowrzlRG/eIh5Md00x+TjElQI6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Professional\\Desktop\\CIST v1\\CIST v1.csproj",
+  "projectFilePath": "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\CIST v1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Professional\\.nuget\\packages\\glimpse\\1.8.5\\glimpse.1.8.5.nupkg.sha512",
     "C:\\Users\\Professional\\.nuget\\packages\\htmlagilitypack\\1.11.54\\htmlagilitypack.1.11.54.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Professional\\Desktop\\CIST v1\\CIST v1.csproj": {}
+    "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\CIST v1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Professional\\Desktop\\CIST v1\\CIST v1.csproj": {
+    "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\CIST v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Professional\\Desktop\\CIST v1\\CIST v1.csproj",
+        "projectUniqueName": "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\CIST v1.csproj",
         "projectName": "CIST v1",
-        "projectPath": "C:\\Users\\Professional\\Desktop\\CIST v1\\CIST v1.csproj",
+        "projectPath": "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\CIST v1.csproj",
         "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Professional\\Desktop\\CIST v1\\obj\\publish\\win-x64\\",
+        "outputPath": "D:\\Documents\\Documents Ya\\Programming\\CIST v1\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

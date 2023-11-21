@@ -42,11 +42,34 @@
             get_btn = new Button();
             txtbox = new RichTextBox();
             flowLayoutPanel3 = new FlowLayoutPanel();
+            menuStrip1 = new MenuStrip();
+            toolStripComboBox1 = new ToolStripMenuItem();
+            saveAsMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
+            exitMenuItem = new ToolStripMenuItem();
+            viewMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem2 = new ToolStripMenuItem();
+            audiencesMenuItem = new ToolStripMenuItem();
+            teacherMenuItem = new ToolStripMenuItem();
+            groupsMenuItem = new ToolStripMenuItem();
+            dateMenuItem = new ToolStripMenuItem();
+            timeMenuItem = new ToolStripMenuItem();
+            linksMenuItem = new ToolStripMenuItem();
+            linkOnMenuItem = new ToolStripMenuItem();
+            toolStripSeparator2 = new ToolStripSeparator();
+            setupMenuItem = new ToolStripMenuItem();
+            уведомленияToolStripMenuItem = new ToolStripMenuItem();
+            alarmCoupleMenuItem = new ToolStripMenuItem();
+            startupOnMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            linkOnGitMenuItem = new ToolStripMenuItem();
+            aboutMenuItem = new ToolStripMenuItem();
             groupBox1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             groupBox2.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
             flowLayoutPanel3.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // time_from_pick
@@ -157,7 +180,7 @@
             get_btn.Name = "get_btn";
             get_btn.Size = new Size(364, 23);
             get_btn.TabIndex = 10;
-            get_btn.Text = "GET";
+            get_btn.Text = "Получить расписание";
             get_btn.UseVisualStyleBackColor = true;
             get_btn.Click += button1_Click;
             // 
@@ -167,9 +190,10 @@
             txtbox.Location = new Point(3, 191);
             txtbox.Name = "txtbox";
             txtbox.ReadOnly = true;
-            txtbox.Size = new Size(364, 336);
+            txtbox.Size = new Size(364, 324);
             txtbox.TabIndex = 13;
             txtbox.Text = "";
+            txtbox.LinkClicked += txtbox_LinkClicked;
             // 
             // flowLayoutPanel3
             // 
@@ -178,10 +202,176 @@
             flowLayoutPanel3.Controls.Add(get_btn);
             flowLayoutPanel3.Controls.Add(txtbox);
             flowLayoutPanel3.Dock = DockStyle.Fill;
-            flowLayoutPanel3.Location = new Point(0, 0);
+            flowLayoutPanel3.Location = new Point(0, 24);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(374, 539);
+            flowLayoutPanel3.Size = new Size(374, 515);
             flowLayoutPanel3.TabIndex = 14;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripComboBox1, viewMenuItem, toolStripMenuItem1 });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(374, 24);
+            menuStrip1.TabIndex = 15;
+            menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
+            // 
+            // toolStripComboBox1
+            // 
+            toolStripComboBox1.DropDownItems.AddRange(new ToolStripItem[] { saveAsMenuItem, toolStripSeparator1, exitMenuItem });
+            toolStripComboBox1.Name = "toolStripComboBox1";
+            toolStripComboBox1.Size = new Size(48, 20);
+            toolStripComboBox1.Text = "Файл";
+            toolStripComboBox1.Click += toolStripComboBox1_Click;
+            // 
+            // saveAsMenuItem
+            // 
+            saveAsMenuItem.Name = "saveAsMenuItem";
+            saveAsMenuItem.ShortcutKeys = Keys.Control | Keys.Shift | Keys.S;
+            saveAsMenuItem.Size = new Size(309, 22);
+            saveAsMenuItem.Text = "Сохранить расписание как...";
+            saveAsMenuItem.Click += saveAsMenuItem_Click;
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(306, 6);
+            // 
+            // exitMenuItem
+            // 
+            exitMenuItem.Name = "exitMenuItem";
+            exitMenuItem.RightToLeftAutoMirrorImage = true;
+            exitMenuItem.ShortcutKeys = Keys.Control | Keys.Q;
+            exitMenuItem.Size = new Size(309, 22);
+            exitMenuItem.Text = "Выход";
+            exitMenuItem.Click += exitMenuItem_Click_1;
+            // 
+            // viewMenuItem
+            // 
+            viewMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, уведомленияToolStripMenuItem, startupOnMenuItem });
+            viewMenuItem.Name = "viewMenuItem";
+            viewMenuItem.Size = new Size(39, 20);
+            viewMenuItem.Text = "Вид";
+            viewMenuItem.Click += видToolStripMenuItem_Click;
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { audiencesMenuItem, teacherMenuItem, groupsMenuItem, dateMenuItem, timeMenuItem, linksMenuItem });
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(310, 22);
+            toolStripMenuItem2.Text = "Элементы отображения";
+            // 
+            // audiencesMenuItem
+            // 
+            audiencesMenuItem.Name = "audiencesMenuItem";
+            audiencesMenuItem.Size = new Size(180, 22);
+            audiencesMenuItem.Text = "Аудитории";
+            audiencesMenuItem.Click += audiencesMenuItem_Click;
+            // 
+            // teacherMenuItem
+            // 
+            teacherMenuItem.Checked = true;
+            teacherMenuItem.CheckState = CheckState.Checked;
+            teacherMenuItem.Name = "teacherMenuItem";
+            teacherMenuItem.Size = new Size(180, 22);
+            teacherMenuItem.Text = "Преподователь";
+            teacherMenuItem.Click += teacherMenuItem_Click;
+            // 
+            // groupsMenuItem
+            // 
+            groupsMenuItem.Name = "groupsMenuItem";
+            groupsMenuItem.Size = new Size(180, 22);
+            groupsMenuItem.Text = "Группы";
+            groupsMenuItem.Click += groupsMenuItem_Click;
+            // 
+            // dateMenuItem
+            // 
+            dateMenuItem.Checked = true;
+            dateMenuItem.CheckState = CheckState.Checked;
+            dateMenuItem.Name = "dateMenuItem";
+            dateMenuItem.Size = new Size(180, 22);
+            dateMenuItem.Text = "Дата";
+            dateMenuItem.Click += dateMenuItem_Click;
+            // 
+            // timeMenuItem
+            // 
+            timeMenuItem.Checked = true;
+            timeMenuItem.CheckState = CheckState.Checked;
+            timeMenuItem.Name = "timeMenuItem";
+            timeMenuItem.Size = new Size(180, 22);
+            timeMenuItem.Text = "Время";
+            timeMenuItem.Click += timeMenuItem_Click;
+            // 
+            // linksMenuItem
+            // 
+            linksMenuItem.DropDownItems.AddRange(new ToolStripItem[] { linkOnMenuItem, toolStripSeparator2, setupMenuItem });
+            linksMenuItem.Name = "linksMenuItem";
+            linksMenuItem.Size = new Size(180, 22);
+            linksMenuItem.Text = "Ссылки";
+            // 
+            // linkOnMenuItem
+            // 
+            linkOnMenuItem.Name = "linkOnMenuItem";
+            linkOnMenuItem.Size = new Size(132, 22);
+            linkOnMenuItem.Text = "Включить";
+            linkOnMenuItem.Click += linkOnMenuItem_Click;
+            // 
+            // toolStripSeparator2
+            // 
+            toolStripSeparator2.Name = "toolStripSeparator2";
+            toolStripSeparator2.Size = new Size(129, 6);
+            // 
+            // setupMenuItem
+            // 
+            setupMenuItem.Name = "setupMenuItem";
+            setupMenuItem.Size = new Size(132, 22);
+            setupMenuItem.Text = "Настроить";
+            setupMenuItem.Click += setupMenuItem_Click;
+            // 
+            // уведомленияToolStripMenuItem
+            // 
+            уведомленияToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { alarmCoupleMenuItem });
+            уведомленияToolStripMenuItem.Enabled = false;
+            уведомленияToolStripMenuItem.Name = "уведомленияToolStripMenuItem";
+            уведомленияToolStripMenuItem.Size = new Size(310, 22);
+            уведомленияToolStripMenuItem.Text = "Уведомления";
+            // 
+            // alarmCoupleMenuItem
+            // 
+            alarmCoupleMenuItem.Name = "alarmCoupleMenuItem";
+            alarmCoupleMenuItem.Size = new Size(193, 22);
+            alarmCoupleMenuItem.Text = "Уведомление на пару";
+            // 
+            // startupOnMenuItem
+            // 
+            startupOnMenuItem.Name = "startupOnMenuItem";
+            startupOnMenuItem.Size = new Size(310, 22);
+            startupOnMenuItem.Text = "При старте делать запрос на текущий день";
+            startupOnMenuItem.Click += startupOnMenuItem_Click;
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { linkOnGitMenuItem, aboutMenuItem });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(65, 20);
+            toolStripMenuItem1.Text = "Справка";
+            toolStripMenuItem1.Click += toolStripMenuItem1_Click;
+            // 
+            // linkOnGitMenuItem
+            // 
+            linkOnGitMenuItem.Name = "linkOnGitMenuItem";
+            linkOnGitMenuItem.Size = new Size(171, 22);
+            linkOnGitMenuItem.Text = "Проект на GitHub";
+            linkOnGitMenuItem.Click += linkOnGitMenuItem_Click;
+            // 
+            // aboutMenuItem
+            // 
+            aboutMenuItem.Enabled = false;
+            aboutMenuItem.Name = "aboutMenuItem";
+            aboutMenuItem.Size = new Size(171, 22);
+            aboutMenuItem.Text = "О программе";
+            aboutMenuItem.Click += aboutMenuItem_Click;
             // 
             // Form1
             // 
@@ -189,6 +379,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(374, 539);
             Controls.Add(flowLayoutPanel3);
+            Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximumSize = new Size(390, 578);
             MinimumSize = new Size(390, 578);
@@ -202,7 +393,10 @@
             flowLayoutPanel2.ResumeLayout(false);
             flowLayoutPanel2.PerformLayout();
             flowLayoutPanel3.ResumeLayout(false);
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -220,5 +414,29 @@
         private Button get_btn;
         private RichTextBox txtbox;
         private FlowLayoutPanel flowLayoutPanel3;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem toolStripComboBox1;
+        private ToolStripMenuItem файлToolStripMenuItem;
+        private ToolStripMenuItem saveAsMenuItem;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripMenuItem exitMenuItem;
+        private ToolStripMenuItem viewMenuItem;
+        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem audiencesMenuItem;
+        private ToolStripMenuItem timeMenuItem;
+        private ToolStripMenuItem dateMenuItem;
+        private ToolStripMenuItem groupsMenuItem;
+        private ToolStripMenuItem linksMenuItem;
+        private ToolStripMenuItem linkOnMenuItem;
+        private ToolStripSeparator toolStripSeparator2;
+        private ToolStripMenuItem setupMenuItem;
+        private ToolStripMenuItem уведомленияToolStripMenuItem;
+        private ToolStripMenuItem alarmCoupleMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem linkOnGitMenuItem;
+        private ToolStripMenuItem aboutMenuItem;
+        private ToolStripMenuItem startupOnMenuItem;
+        private ToolStripMenuItem сохранитьНастройкиToolStripMenuItem;
+        private ToolStripMenuItem teacherMenuItem;
     }
 }
